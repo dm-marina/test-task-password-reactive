@@ -1,0 +1,26 @@
+
+ul{
+    padding: 0;
+    margin-top: 50px;
+}
+
+.default{
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #B4B4B3;
+    margin-top: 20px;
+    color: #333;
+    font-size: 18px;
+    list-style-type: none; 
+}
+.less, .easy{
+    background-color: red;
+    color: #fff;
+}
+.medium{
+    background-color: yellow;
+}
+.strong{
+    background-color: green;
+    color: #fff;
+}

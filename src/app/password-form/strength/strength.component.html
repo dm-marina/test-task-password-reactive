@@ -1,0 +1,8 @@
+<ul class="strength">
+    <li class="default" [ngClass]="{'less':strength==='less', 'easy':strength==='easy',
+    'medium':strength==='medium', 'strong': strength==='strong' }">The password is easy</li>
+    <li class="default"
+      [ngClass]="{'less':strength==='less', 'medium':strength==='medium','strong': strength==='strong' }"
+    >The password is medium</li>
+    <li class="default" [ngClass]="{'less':strength==='less', 'strong': strength==='strong'}">The password is strong</li>
+  </ul>
